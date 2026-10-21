@@ -1,0 +1,12 @@
+import numpy as np
+population_numpy=np.array([1000, 2000, 3004, 4000, 5000])
+average_population = np.mean(population_numpy)
+print("Average population:", average_population)
+sum_population=np.sum(population_numpy)
+print(sum_population)
+minimum_population=np.min(population_numpy)
+maximum_population=np.max(population_numpy)
+print(maximum_population)
+print(minimum_population)
+print(population_numpy.shape)
+print(population_numpy.ndim)

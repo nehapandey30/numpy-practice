@@ -1,0 +1,10 @@
+import numpy as np
+matrix_numpy = np.array([[1, 2, 3], [3, 4, 5],[2,4,8]])
+print(matrix_numpy)
+print(matrix_numpy.shape)
+print(matrix_numpy.ndim)
+print(matrix_numpy[0,1])
+print(matrix_numpy[2,2])
+print(matrix_numpy[1])
+print(matrix_numpy+10)
+print(np.sum(matrix_numpy))
